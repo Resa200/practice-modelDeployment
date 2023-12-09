@@ -1,7 +1,7 @@
 import requests
 
 # Define the URL of your Flask API
-api_url = "https://472d-102-88-62-95.ngrok-free.app/predict"
+api_url = "https://model-api-pem5.onrender.com/predict"
 
 # Sample text for testing
 sample_texts = ["You people should improve in the item's you ", "Hate this", "kindly improve this", "I just don't like this"]
