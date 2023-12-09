@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import joblib
-from preprocess import preprocess_text
 
 app = Flask(__name__)
 
