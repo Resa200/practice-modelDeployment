@@ -12,6 +12,7 @@ vectorizer = joblib.load('vectorizer.joblib')
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
+    text = data[text]
     # text = preprocess_text(data['text'])
     vectorized_text = vectorizer.transform([text])
     prediction = model.predict(vectorized_text).item()
