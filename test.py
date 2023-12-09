@@ -1,4 +1,6 @@
 import requests
+import nltk
+nltk.download('punkt')
 
 # Define the URL of your Flask API
 api_url = "https://model-api-pem5.onrender.com/predict"
